@@ -1,6 +1,6 @@
 # Realm Object Server - LogDNA Integration
 
-Add incredibly powerful Machine Learning to your Sync Server via Realm Object Server and LogDNA!
+Add incredibly powerful Machine Learning to your Sync Server via Realm Object Server and LogDNA! Proactively manage your ROS production environment in real time.
 
 1. Run `npm install` or `yarn`
 2. Create a file called `creds.json` right next to `package.json`

@@ -10,6 +10,9 @@ class LogDNALogger extends ROSLogger {
     constructor(){
         super()
         const creds = require('../creds.json')
+        if (!creds) {
+            throw new Error(`Please create a creds.json. See README.md for more information`)
+        }
         const ingestionKey = creds["LOG_DNA_INGESTION_KEY"]
         this.logDNAlogger = LogDNA.setupDefaultLogger(ingestionKey, {
             hostname: 'locahost'
