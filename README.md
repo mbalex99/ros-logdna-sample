@@ -1,5 +1,9 @@
 # Realm Object Server - LogDNA Integration
 
+![Realm Logo](/screenshots/logo.png)
+
+![LogDNA and Node Logo](/screenshots/logo+node.png)
+
 Add incredibly powerful Machine Learning to your Sync Server via Realm Object Server and LogDNA! Proactively manage your ROS production environment in real time.
 
 1. Run `npm install` or `yarn`
@@ -14,7 +18,7 @@ Add incredibly powerful Machine Learning to your Sync Server via Realm Object Se
 3. Run `npm start` 
 4. Go to your dashbaord and view your logs on https://app.logdna.com/
 
-![GitHub Logo](/screenshots/dashboard.png)
+![LogDNA Dashboard](/screenshots/dashboard.png)
 
 Voila! Powerful Realtime Logging with Machine Learning and Search Capabilities.
 
